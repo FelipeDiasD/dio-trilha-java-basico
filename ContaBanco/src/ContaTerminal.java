@@ -28,6 +28,8 @@ public class ContaTerminal {
         System.out.print("Por ultimo, insira o ultimo saldo conhecido de sua conta: ");
         saldo = saldo.parseFloat(reader.readLine());
 
+        reader.close();
+
         
 
         System.out.println

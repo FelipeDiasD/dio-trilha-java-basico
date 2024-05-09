@@ -1,4 +1,4 @@
-## Desafio sintaxe - Controle de fluxo
+## Desafio Básico - Controle de fluxo
 
 [Link do desafio](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/controle-fluxo)
 

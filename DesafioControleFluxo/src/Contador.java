@@ -19,6 +19,7 @@ public class Contador {
 		Integer parametroDois = 0;
         parametroDois = parametroDois.parseInt(terminal.readLine());
 		
+        terminal.close();
 		try {
 			//chamando o método contendo a lógica de contagem
 			contar(parametroUm, parametroDois);

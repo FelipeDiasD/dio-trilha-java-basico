@@ -1,20 +1,10 @@
 ```mermaid
 classDiagram
-    IPhone <|-- ReprodutorMusical
-    IPhone <|-- AparelhoTelefonico
-    IPhone <|-- NavegadorInternet
+    IPhone --|> ReprodutorMusical
+    IPhone --|> AparelhoTelefonico
+    IPhone --|> NavegadorInternet
 
-    IPhone : +selecionarMusica(String musica)void
-    IPhone : +tocar() void
-    IPhone : +pausar()void
-
-    IPhone : +exibirPagina(String url)void
-    IPhone : +atualizarPagina()void
-    IPhone : +adicionarNovaAba()void
-
-    IPhone : +ligar(String numero) void
-    IPhone : +atender()void
-    IPhone : +iniciarCorreioDeVoz()void
+    IPhone : 
 
    
     class ReprodutorMusical{
